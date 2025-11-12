@@ -14,6 +14,7 @@ class WindowExt(Ui_MainWindow):
         self.lineEdit_bdywash.textChanged.connect(self.total_value)
         self.lineEdit_cleanser.textChanged.connect(self.total_value)
         self.lineEdit_moisturiser.textChanged.connect(self.total_value)
+        self.Phanthuong.clicked.connect(self.Reward)
     def showMainWindow(self):
         self.MainWindow.show()
     def processPayment(self):
@@ -28,6 +29,9 @@ class WindowExt(Ui_MainWindow):
             self.MainWindow.close()
     def total_value(self):
         pass
+    def Reward(self):
+        pass
+
 
 
 
