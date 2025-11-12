@@ -113,6 +113,9 @@ class Ui_MainWindow(object):
         self.gridLayout.addWidget(self.label_8, 0, 1, 1, 1)
         self.label_9 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_9.setGeometry(QtCore.QRect(440, 530, 261, 16))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_9.setFont(font)
         self.label_9.setObjectName("label_9")
         self.label_11 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_11.setGeometry(QtCore.QRect(0, 110, 101, 68))
@@ -194,6 +197,18 @@ class Ui_MainWindow(object):
 "\n"
 "color: rgb(255, 255, 255);")
         self.Phanthuong.setObjectName("Phanthuong")
+        self.label_27 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_27.setGeometry(QtCore.QRect(0, 560, 691, 31))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_27.setFont(font)
+        self.label_27.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(170, 170, 255);\n"
+"")
+        self.label_27.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_27.setObjectName("label_27")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 697, 26))
@@ -230,3 +245,4 @@ class Ui_MainWindow(object):
         self.label_16.setText(_translate("MainWindow", "Total Value:"))
         self.pushButton_payment.setText(_translate("MainWindow", "THANH TOÁN"))
         self.Phanthuong.setText(_translate("MainWindow", "XEM PHẦN THƯỞNG"))
+        self.label_27.setText(_translate("MainWindow", "VUI LÒNG NHẬP \"0\" NẾU QUÝ KHÁCH KHÔNG CÓ NHU CẦU MUA SẮM SẢN PHẨM"))
