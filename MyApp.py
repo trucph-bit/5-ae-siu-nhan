@@ -1,9 +1,8 @@
 from PyQt6.QtWidgets import QApplication, QMainWindow
-
-from WindowExt import WindowExt
+from Window2Ext import Window2Ext
 
 app=QApplication([])
-myWindow=(WindowExt())
+myWindow=(Window2Ext())
 myWindow.setupUi(QMainWindow())
-myWindow.show()
+myWindow.showMainWindow()
 app.exec()

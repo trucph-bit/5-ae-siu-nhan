@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>604</width>
-    <height>459</height>
+    <width>697</width>
+    <height>644</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -74,8 +74,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>410</y>
+      <x>30</x>
+      <y>530</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -262,41 +262,14 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>410</y>
-      <width>201</width>
+      <x>440</x>
+      <y>530</y>
+      <width>261</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;*Các sản phẩm trên đã bao gồm VAT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_Continue">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>370</y>
-      <width>141</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(85, 170, 127);</string>
-    </property>
-    <property name="text">
-     <string>CONTINUE</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>images/continue.png</normaloff>images/continue.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>30</width>
-      <height>30</height>
-     </size>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -369,25 +342,6 @@ background-color: rgb(85, 170, 127);</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_16">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>360</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>images/mois.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
@@ -407,14 +361,90 @@ background-color: rgb(85, 170, 127);</string>
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>370</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Total Value:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_moisturiser_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>370</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_payment">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>490</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 218, 30);</string>
+    </property>
+    <property name="text">
+     <string>THANH TOÁN</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>github/images/pay.png</normaloff>github/images/pay.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>591</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>604</width>
-     <height>22</height>
+     <width>697</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
