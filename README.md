@@ -13,7 +13,7 @@ Nhân dịp cuối năm, Pureora tổ chức chương trình **tri ân khách h�
 - Xác nhận thanh toán
 
 ---
-## 👀 Thành viên nhóm
+## 👀 Thành viên nhóm (Gồm 3 thành viên)
 - **Tên** Dương Nguyễn Kim Ngân **MSSV** K254111459 **github** ieatmizi
 - **Tên** Phạm Ngọc Thuỳ Trang **MSSV** K254111473 **github** chengnomiwti
 - **Tên** Phan Hương Trúc **MSSV** K254111475 **github** trucph
