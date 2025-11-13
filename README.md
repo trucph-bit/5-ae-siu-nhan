@@ -8,7 +8,7 @@ Nhân dịp cuối năm, Pureora tổ chức chương trình **tri ân khách h�
 
 ## 🚀 Cách mua hàng
 - Xem và tìm kiếm sản phẩm mỹ phẩm theo danh mục  
-- Nhập số lượng sản phẩm muons mua và qua muc tiếp theo  
+- Nhập số lượng sản phẩm muốn mua và qua mục tiếp theo  
 - Điền thông tin cá nhân
 - Khi xác nhận thanh toán, Pureora sẽ cho quý khách biết phần quà bạn nhận được 
 - Giao diện thân thiện, dễ sử dụng trên cả máy tính và điện thoại  
